@@ -1,0 +1,48 @@
+body {
+	background: #F1F1F1 !important;
+
+	.q-layout-page-container {
+		padding-top: 30px !important;
+
+		@media $mobile {
+			padding-top: 45px !important;
+		}
+
+		@media $tab {
+			padding-top: 50px !important;
+		}
+	}
+	.q-card {
+		padding: 15px;
+		box-shadow: none;
+
+		.q-if-label {
+			font-size: 18px;
+		}
+
+		.q-if-inverted.bg-primary {
+			background: #1c374eb0 !important;
+		}
+
+		.q-card-container {
+			padding-top: 0px !important;
+		}
+	}
+	.fab-position {
+		bottom: 30px;
+		right: 60px;
+
+		@media $tab {
+			right: 35px;
+		}
+
+		@media $mobile {
+			bottom: 15px;
+			right: 15px;
+		}
+	}
+
+	.q-table-container {
+		box-shadow: none !important;
+	}
+}

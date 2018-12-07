@@ -1,0 +1,104 @@
+.HEADER {
+
+	.q-layout-header{
+		box-shadow: 0 1px 11px -6px #777 !important;
+
+		.q-toolbar.glossy {
+			background-image: none !important;
+			/* background: #26a69a !important; */
+			background: #027be3 !important;
+
+			.q-toolbar-title h6 {
+				margin: 8px 0;
+			}
+
+			.header-logo img {
+				width: 50px;
+				height: auto;
+
+				@media $mobile {
+					width: 39px;
+				}
+
+				@media $tab {
+					width: 48px;
+				}
+			}
+		}
+	}
+
+	.q-drawer-container {
+
+		.q-layout-drawer {
+			background: #fff !important;
+
+			.legal {
+				position: absolute;
+			    bottom: 0;
+			    width: 100%;
+			    border-top: 1px solid #eee;
+			    padding: 10px;
+			    overflow: hidden;
+			    background-color: #fff;
+
+			    .copyright {
+			    	font-size: 13px;
+			    	text-overflow: ellipsis;
+					overflow: hidden;
+
+					a {
+						color: #F44336 !important;
+						font-weight: bold;
+						text-decoration: none;
+					}
+			    }
+
+			    .version {
+			    	white-space: nowrap;
+			    	text-overflow: ellipsis;
+				    overflow: hidden;
+				    margin-top: 5px;
+				    font-size: 13px;
+			    }
+			}
+
+			.q-list {
+				padding: 0px 0;
+				font-family: "Roboto", sans-serif;
+
+				.q-list-header {
+					line-height: 31px;
+					font-size: 15px;
+					font-weight: 600;
+					color: #333;
+					border-bottom: 1px solid #ccc;
+				}
+
+				.q-item {
+					padding: 12px 16px;
+					cursor: default;
+
+					@media $tab {
+						padding: 10px 16px;
+					}
+
+					@media $mobile {
+						padding: 10px 16px;
+					}
+
+					a {
+						text-decoration: none;
+						color: #333;
+						font-size: 14px;
+						font-weight: bold;
+
+						&.router-link-active {
+							color: #F44336;
+						}
+					}
+				}
+			}
+		}
+
+	}
+}
