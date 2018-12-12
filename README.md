@@ -17,8 +17,8 @@ Which includes:
 
 use below credentials for demo:
 
-Username: sample@gmail.com
-password: sample123
+* Username: sample@gmail.com
+* password: sample123
 
 
 ## Getting Started
